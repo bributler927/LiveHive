@@ -15,6 +15,8 @@
 		88CDF1C324EC62D100B09F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CDF1C124EC62D100B09F9E /* LaunchScreen.storyboard */; };
 		88CDF1CE24EC62D200B09F9E /* LiveHiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDF1CD24EC62D200B09F9E /* LiveHiveTests.swift */; };
 		88CDF1D924EC62D200B09F9E /* LiveHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CDF1D824EC62D200B09F9E /* LiveHiveUITests.swift */; };
+		88CDF1E724EC63A000B09F9E /* Righteous in Resources */ = {isa = PBXBuildFile; fileRef = 88CDF1E624EC63A000B09F9E /* Righteous */; };
+		88CDF1E924EC671D00B09F9E /* Lapelles.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CDF1E824EC671D00B09F9E /* Lapelles.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		88CDF1D424EC62D200B09F9E /* LiveHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveHiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CDF1D824EC62D200B09F9E /* LiveHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHiveUITests.swift; sourceTree = "<group>"; };
 		88CDF1DA24EC62D200B09F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CDF1E624EC63A000B09F9E /* Righteous */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Righteous; sourceTree = "<group>"; };
+		88CDF1E824EC671D00B09F9E /* Lapelles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lapelles.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		88CDF1B524EC62CA00B09F9E /* LiveHive */ = {
 			isa = PBXGroup;
 			children = (
+				88CDF1E824EC671D00B09F9E /* Lapelles.png */,
+				88CDF1E624EC63A000B09F9E /* Righteous */,
 				88CDF1B624EC62CA00B09F9E /* AppDelegate.swift */,
 				88CDF1B824EC62CA00B09F9E /* SceneDelegate.swift */,
 				88CDF1BA24EC62CA00B09F9E /* ViewController.swift */,
@@ -235,6 +241,8 @@
 				88CDF1C324EC62D100B09F9E /* LaunchScreen.storyboard in Resources */,
 				88CDF1C024EC62D100B09F9E /* Assets.xcassets in Resources */,
 				88CDF1BE24EC62CA00B09F9E /* Main.storyboard in Resources */,
+				88CDF1E724EC63A000B09F9E /* Righteous in Resources */,
+				88CDF1E924EC671D00B09F9E /* Lapelles.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
