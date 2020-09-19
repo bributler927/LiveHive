@@ -5,7 +5,6 @@
 //  Created by Brianna Butler on 8/18/20.
 //  Copyright © 2020 LiveHive. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain

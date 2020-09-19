@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LiveHive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0m-gY-lAA">
-                                <rect key="frame" x="55" y="398" width="304" height="100"/>
+                                <rect key="frame" x="56.5" y="404" width="301" height="98.5"/>
                                 <fontDescription key="fontDescription" name="Righteous-Regular" family="Righteous" pointSize="79"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -29,9 +29,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.99684828520000002" green="0.81075292830000001" blue="0.097445927560000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="x0m-gY-lAA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1Re-NR-pom"/>
                             <constraint firstItem="x0m-gY-lAA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6hs-Ys-x9I"/>
-                            <constraint firstItem="x0m-gY-lAA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="8QA-VV-ULr"/>
-                            <constraint firstItem="x0m-gY-lAA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="354" id="kM2-kz-XOl"/>
+                            <constraint firstItem="x0m-gY-lAA" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.727053" id="YUI-AR-tm6"/>
+                            <constraint firstItem="x0m-gY-lAA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="w63-Rr-kLH"/>
                             <constraint firstItem="x0m-gY-lAA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yJn-Vc-QXn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
