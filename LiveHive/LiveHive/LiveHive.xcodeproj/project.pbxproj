@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		886AAAE725240C8A00A5CFD3 /* notificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AAAE625240C8A00A5CFD3 /* notificationsViewController.swift */; };
+		886AAAEC252412CF00A5CFD3 /* notifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AAAEB252412CF00A5CFD3 /* notifTableViewCell.swift */; };
 		88C5DB572515AA7D007DF2C9 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C5DB562515AA7D007DF2C9 /* user.png */; };
 		88C5DB592515AFF4007DF2C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5DB582515AFF3007DF2C9 /* LoginViewController.swift */; };
 		88C5DB5D2515B426007DF2C9 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C5DB5C2515B426007DF2C9 /* lock.png */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		886AAAE625240C8A00A5CFD3 /* notificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsViewController.swift; sourceTree = "<group>"; };
+		886AAAEB252412CF00A5CFD3 /* notifTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifTableViewCell.swift; sourceTree = "<group>"; };
 		88C5DB562515AA7D007DF2C9 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../../../user.png; sourceTree = "<group>"; };
 		88C5DB582515AFF3007DF2C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		88C5DB5C2515B426007DF2C9 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				88CDF1BA24EC62CA00B09F9E /* ViewController.swift */,
 				88C5DB582515AFF3007DF2C9 /* LoginViewController.swift */,
 				88CDF1BC24EC62CA00B09F9E /* Main.storyboard */,
+				886AAAE625240C8A00A5CFD3 /* notificationsViewController.swift */,
+				886AAAEB252412CF00A5CFD3 /* notifTableViewCell.swift */,
 				88CDF1BF24EC62D100B09F9E /* Assets.xcassets */,
 				88C5DB5C2515B426007DF2C9 /* lock.png */,
 				88C5DB562515AA7D007DF2C9 /* user.png */,
@@ -283,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C5DB592515AFF4007DF2C9 /* LoginViewController.swift in Sources */,
+				886AAAE725240C8A00A5CFD3 /* notificationsViewController.swift in Sources */,
+				886AAAEC252412CF00A5CFD3 /* notifTableViewCell.swift in Sources */,
 				88CDF1BB24EC62CA00B09F9E /* ViewController.swift in Sources */,
 				88CDF1B724EC62CA00B09F9E /* AppDelegate.swift in Sources */,
 				88CDF1B924EC62CA00B09F9E /* SceneDelegate.swift in Sources */,
